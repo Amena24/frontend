@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.parent{
+    height: 20000px;
+    position: relative;
+}
+/********************about****************************/
+.about{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 460vh;
+    background-color: rgb(248, 248, 248);
+    border: 0.1px solid  rgb(219, 214, 214) ;
+}
+.about-container{
+    width: 80%;
+    overflow: auto;
+    margin: auto;
+}
+.about-content{
+    float: left;
+    width: 50%;
+}
+.about h2{
+    text-align: left;
+}
+.about .line{
+    margin-left: 0px;
+    width: 80px;
+    margin-top: -5px;
+    margin-bottom: 30px;
+}
+.about i{
+    font-size: 17px;
+}
+.about-img{
+    float: right;
+    width: 40%;
+    margin-top: 90px;
+}
+.about img{
+    width: 350px;
+    height: 380px;
+}
+.points{
+    width: 100px;
+    margin-left:120px;
+}
+.points ul{
+    overflow: auto;
+}
+.points li{
+    float: right;
+    margin-left: 20px;
+    font-size: 25px;  
+    color: rgb(90, 67, 42); 
+}
+.points .li1:hover{
+    color: rgb(178, 149, 118);    
+}
+.points .li3{
+    color: rgb(178, 149, 118);
+}
